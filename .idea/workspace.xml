@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5885fc80-bb37-481a-8ce6-45b374d7dbf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DataStructures/BinaryHeap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/BinarySearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/Fibonaci.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Fibonaci.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <recent name="C:\IDEA projects\sandbox\algorithms\src\main\kotlin\algorithms\DataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BinaryHeapKt">
+  <component name="RunManager" selected="Kotlin.BinarySearchKt">
     <configuration name="BinaryHeapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.DataStructures.BinaryHeapKt" />
       <module name="algorithms.main" />
@@ -66,15 +67,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecodeHaffmanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.DataComprassion.DecodeHaffmanKt" />
+    <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.BinarySearchKt" />
       <module name="algorithms.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisibleTreasureKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.GreedyAlgorithms.DivisibleTreasureKt" />
+    <configuration name="DecodeHaffmanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.DataComprassion.DecodeHaffmanKt" />
       <module name="algorithms.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BinarySearchKt" />
         <item itemvalue="Kotlin.BinaryHeapKt" />
         <item itemvalue="Kotlin.DecodeHaffmanKt" />
         <item itemvalue="Kotlin.HaffmanKt" />
         <item itemvalue="Kotlin.SummandsKt" />
-        <item itemvalue="Kotlin.DivisibleTreasureKt" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1784806483520</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="binary heap">
+      <created>1784816852531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784816852531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +168,7 @@
     <MESSAGE value="haffman code" />
     <MESSAGE value="output format from task" />
     <MESSAGE value="decoding haffman" />
-    <option name="LAST_COMMIT_MESSAGE" value="decoding haffman" />
+    <MESSAGE value="binary heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary heap" />
   </component>
 </project>

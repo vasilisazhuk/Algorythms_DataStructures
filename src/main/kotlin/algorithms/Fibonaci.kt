@@ -8,7 +8,7 @@ package algorithms
 Single source shortest path problem
 * */
 
-fun PizanoPeriod(n: Int): List<Int> {
+fun pizzanoPeriod(n: Int): List<Int> {
     if (n == 1) return listOf(0)
 
     val sequence = mutableListOf<Int>()
@@ -44,7 +44,7 @@ fun main() {
 
     println(sequence[index])
     * */
-    val sequence = PizanoPeriod(25897)
+    val sequence = pizzanoPeriod(25897)
     //print(sequence)
     print(sequence[1598753%sequence.size])
     //print(fibLast(n[0]))
