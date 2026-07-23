@@ -37,6 +37,10 @@ class Haffman{
     }
     fun buildHuffmanTree(map: Map<Char, Int>): Map<Char, String>{
         val pq = PriorityQueue<Node>()
+        if (map.size == 1) {
+            val char = map.keys.first()
+            return mapOf(char to "0")
+        }
         map.forEach { (char, frequency) ->
             pq.add(Node(char, frequency))
         }
@@ -57,5 +61,10 @@ fun main(){
     val frequencies = str.groupingBy { it }.eachCount()//.entries.sortedByDescending { it.value }
     val haffman = Haffman()
     val codes = haffman.buildHuffmanTree(frequencies)
-    println(codes)
+    val len = str.map { codes[it] ?: "" }.joinToString("")
+    //codes.map { it -> len += it.value.length }
+    println("${frequencies.size} ${len.length}")
+    codes.map { it -> println("${it.key}: ${it.value}") }
+    println(len)
+    //println(codes)
 }
