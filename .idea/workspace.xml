@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5885fc80-bb37-481a-8ce6-45b374d7dbf2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DataComprassion/DecodeHaffman.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/DataComprassion/Haffman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DataComprassion/Haffman.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,14 @@
       <recent name="C:\IDEA projects\sandbox\algorithms\src\main\kotlin\math" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.HaffmanKt">
+  <component name="RunManager" selected="Kotlin.DecodeHaffmanKt">
+    <configuration name="DecodeHaffmanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.DataComprassion.DecodeHaffmanKt" />
+      <module name="algorithms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DivisibleTreasureKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.GreedyAlgorithms.DivisibleTreasureKt" />
       <module name="algorithms.main" />
@@ -65,13 +72,6 @@
     </configuration>
     <configuration name="DotsAndSegmentsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.GreedyAlgorithms.DotsAndSegmentsKt" />
-      <module name="algorithms.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GDCKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.GDCKt" />
       <module name="algorithms.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DecodeHaffmanKt" />
         <item itemvalue="Kotlin.HaffmanKt" />
         <item itemvalue="Kotlin.SummandsKt" />
         <item itemvalue="Kotlin.DivisibleTreasureKt" />
         <item itemvalue="Kotlin.DotsAndSegmentsKt" />
-        <item itemvalue="Kotlin.GDCKt" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1784801714699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="output format from task">
+      <created>1784803222150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1784803222150</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="алгоритмы курс на Stepik" />
     <MESSAGE value="haffman code" />
-    <option name="LAST_COMMIT_MESSAGE" value="haffman code" />
+    <MESSAGE value="output format from task" />
+    <option name="LAST_COMMIT_MESSAGE" value="output format from task" />
   </component>
 </project>
