@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5885fc80-bb37-481a-8ce6-45b374d7dbf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/BinarySearch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DivideAndConquer/InversionCount.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/Fibonaci.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/Fibonaci.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DivideAndConquer/BinarySearch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IDEA projects/sandbox/multiplatform_x5tech&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/IDEA projects/sandbox/multiplatform_x5tech",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IDEA projects\sandbox\algorithms\src\main\kotlin\math" />
@@ -59,7 +61,7 @@
       <recent name="C:\IDEA projects\sandbox\algorithms\src\main\kotlin\algorithms\DataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BinarySearchKt">
+  <component name="RunManager" selected="Kotlin.InversionCountKt">
     <configuration name="BinaryHeapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.DataStructures.BinaryHeapKt" />
       <module name="algorithms.main" />
@@ -88,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SummandsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.GreedyAlgorithms.SummandsKt" />
+    <configuration name="InversionCountKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.DivideAndConquer.InversionCountKt" />
       <module name="algorithms.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InversionCountKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
         <item itemvalue="Kotlin.BinaryHeapKt" />
         <item itemvalue="Kotlin.DecodeHaffmanKt" />
         <item itemvalue="Kotlin.HaffmanKt" />
-        <item itemvalue="Kotlin.SummandsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1784816852531</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="binary search">
+      <created>1784823008843</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784823008844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +178,7 @@
     <MESSAGE value="output format from task" />
     <MESSAGE value="decoding haffman" />
     <MESSAGE value="binary heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary heap" />
+    <MESSAGE value="binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search" />
   </component>
 </project>
