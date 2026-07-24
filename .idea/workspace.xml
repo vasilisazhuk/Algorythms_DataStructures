@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5885fc80-bb37-481a-8ce6-45b374d7dbf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DivideAndConquer/InversionCount.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DivideAndConquer/DotsAndSegments.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DivideAndConquer/BinarySearch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <recent name="C:\IDEA projects\sandbox\algorithms\src\main\kotlin\algorithms\DataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InversionCountKt">
+  <component name="RunManager" selected="Kotlin.DotsAndSegmentsKt">
     <configuration name="BinaryHeapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.DataStructures.BinaryHeapKt" />
       <module name="algorithms.main" />
@@ -83,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HaffmanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.DataComprassion.HaffmanKt" />
+    <configuration name="DotsAndSegmentsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.DivideAndConquer.DotsAndSegmentsKt" />
       <module name="algorithms.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DotsAndSegmentsKt" />
         <item itemvalue="Kotlin.InversionCountKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
         <item itemvalue="Kotlin.BinaryHeapKt" />
         <item itemvalue="Kotlin.DecodeHaffmanKt" />
-        <item itemvalue="Kotlin.HaffmanKt" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1784823008844</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="поиск инверсий">
+      <created>1784843581467</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784843581467</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +184,7 @@
     <MESSAGE value="decoding haffman" />
     <MESSAGE value="binary heap" />
     <MESSAGE value="binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary search" />
+    <MESSAGE value="поиск инверсий" />
+    <option name="LAST_COMMIT_MESSAGE" value="поиск инверсий" />
   </component>
 </project>
