@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5885fc80-bb37-481a-8ce6-45b374d7dbf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/CountSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/DynamicProgramming/LongestIncreasingSubsequence.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,14 +59,7 @@
       <recent name="C:\IDEA projects\sandbox\algorithms\src\main\kotlin\algorithms\DataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CountSortKt">
-    <configuration name="BinaryHeapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.DataStructures.BinaryHeapKt" />
-      <module name="algorithms.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.LongestIncreasingSubsequenceKt">
     <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.BinarySearchKt" />
       <module name="algorithms.main" />
@@ -95,13 +88,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongestIncreasingSubsequenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.DynamicProgramming.LongestIncreasingSubsequenceKt" />
+      <module name="algorithms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LongestIncreasingSubsequenceKt" />
         <item itemvalue="Kotlin.CountSortKt" />
         <item itemvalue="Kotlin.DotsAndSegmentsKt" />
         <item itemvalue="Kotlin.InversionCountKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
-        <item itemvalue="Kotlin.BinaryHeapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1784915606621</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="сортировка подсчетом (для заданного множества элементов сортировки)">
+      <created>1785055110019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1785055110019</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +200,7 @@
     <MESSAGE value="binary search" />
     <MESSAGE value="поиск инверсий" />
     <MESSAGE value="поиск количества отрезков содержащих точку" />
-    <option name="LAST_COMMIT_MESSAGE" value="поиск количества отрезков содержащих точку" />
+    <MESSAGE value="сортировка подсчетом (для заданного множества элементов сортировки)" />
+    <option name="LAST_COMMIT_MESSAGE" value="сортировка подсчетом (для заданного множества элементов сортировки)" />
   </component>
 </project>
