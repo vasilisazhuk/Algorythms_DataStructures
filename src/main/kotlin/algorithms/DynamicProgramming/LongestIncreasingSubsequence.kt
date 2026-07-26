@@ -16,7 +16,7 @@ fun longestIncreasingSubsequnce(list: List<Int>): List<Int>{
 }
 
 fun main(){
-val n = readln().toInt()
+    val n = readln().toInt()
     val list = readln().split(" ").map { it.toInt() }
 
     val indexes = longestIncreasingSubsequnce(list)
